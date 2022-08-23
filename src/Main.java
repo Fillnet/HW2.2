@@ -8,7 +8,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
         System.out.println("Задание 2 ");
-        dog = dog + 4;
+        dog = dog + 4;// dog+=4 - упрощенная версия
         cat = cat + 4;
         paper = paper + 4;
         System.out.println(dog);
@@ -40,11 +40,11 @@ public class Main {
         System.out.println("Задание 6 ");
         var firstBoxer = 78.2;
         var secondBoxer = 82.7;
-        System.out.println("Общий вес боксеров " + firstBoxer + secondBoxer + " кг");
-        System.out.println("Разница в весе боксеров " + (secondBoxer - firstBoxer) + " кг");
+        System.out.println("Общий вес боксеров: " + firstBoxer + secondBoxer + " кг");
+        System.out.println("Разница в весе боксеров: " + (secondBoxer - firstBoxer) + " кг");
         System.out.println("Задание 7 ");
-        System.out.println("Разница в весе боксеров " + (secondBoxer - firstBoxer) + " кг");
-        System.out.println("Разница в весе боксеров " + (secondBoxer - firstBoxer) % secondBoxer + " кг");
+        System.out.println("Разница в весе боксеров(1 способ): " + (secondBoxer - firstBoxer) + " кг");
+        System.out.println("Разница в весе боксеров(2 способ): " + (secondBoxer % firstBoxer)  + " кг");
         System.out.println("Задание 8 ");
         var workHours = 640;
         var oneWorkersHours = 8;
